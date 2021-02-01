@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.white-menu {
+    height: 70px;
+}
+
 .headermenu {
     list-style-type: none;
     padding: 0;
@@ -14,7 +23,10 @@
     text-transform: uppercase;
     text-decoration: none;
 }
-.cart {
+
+.cart-button,
+.slide-button,
+.card-button-1 {
     background-color: #4592FF;
     color: #fff;
     padding: 10px 20px;
@@ -28,7 +40,138 @@
     line-height: 20px;
     display: flex;
     align-items: center;
+    outline: none;
 }
+
 .cart-img {
     margin-right: 10px;
+}
+
+.slide {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.slide-1 {
+    background: #B4D1E0 url(../img/img-slide-1.png) no-repeat top right 18%;
+    background-size: contain;
+}
+
+.lable {
+    background-color: #3DC47E;
+    border-radius: 3px;
+    padding: 5px 12px;
+    color: #fff;
+}
+
+.slide-title {
+    color: #262D33;
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.slide-description {
+    color: #4B5157;
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.slide-price {
+    margin-right: 10px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.slide-prev,
+.slide-next {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.card {
+    min-height: 370px;
+    padding: 60px 46px 80px;
+    border-radius: 10px;
+}
+
+.card-1 {
+    background: url(../img/card-1.png);
+    background-size: cover;
+}
+
+.card-title-1 {
+    color: #262D33;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 222px;
+    margin: 0;
+}
+
+.card-description-1,
+.card-description-3 {
+    margin: 15px 0px 25px;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 176px;
+    color: #4B5157;
+}
+
+.card-description-3 {
+    min-width: 320px;
+}
+
+.view-all {
+    margin-right: 10px;
+}
+
+.card-2 {
+    background: url(../img/card-2.png);
+    background-size: cover;
+}
+
+.text-white {
+    color: white;
+}
+
+.card-3 {
+    background: #CCD5E6 url(../img/card-3.png) no-repeat top right 15%;
+    background-size: contain;
+    max-height: 370px;
+    padding-top: 35px;
+}
+
+.long-card {
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 419px;
+    padding-top: 30px;
+}
+
+.card-4 {
+    background: #FF4F52 url(../img/card-4.png) no-repeat top right;
+    background-size: contain;
+    height: 370px;
+    padding-left: 26px;
+    padding-top: 35px;
+}
+
+.price-card-4 {
+    font-size: 14px;
+    line-height: 20px;
 }
