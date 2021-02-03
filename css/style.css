@@ -175,3 +175,105 @@ body {
     font-size: 14px;
     line-height: 20px;
 }
+
+.new-arrival {
+    color: #262D33;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.more {
+    color: #262D33;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.goods-card {
+    text-align: center;
+    position: relative;
+    padding: 30px 36px 36px 36px;
+}
+
+.goods-card .lable {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+
+.goods-title {
+    margin: 15px 0px 5px;
+    color: #262D33;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.goods-description {
+    margin-bottom: 20px;
+    color: #4B5157;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.goods-price {
+    color: #262D33;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.footer {
+    color: white;
+    background-color: #8F79D4;
+    padding: 45px 113px 40px;
+}
+
+.footer-menu-items {
+    list-style-type: none;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu-item {
+    margin-right: 40px;
+}
+
+.follow {
+    font-size: 14px;
+    line-height: 20px;
+    color: #E7D9FF;
+    margin-right: 10px;
+}
+
+.social-icon {
+    margin-left: 15px;
+}
+
+.copy {
+    font-size: 14px;
+    line-height: 20px;
+    color: #E7D9FF;
+}
+
+.footer-line {
+    opacity: 0.5;
+    margin: 44px 0 30px;
+}
+
+.pay-img {
+    margin-right: 25px;
+}
+
+.top {
+    margin-right: 15px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
