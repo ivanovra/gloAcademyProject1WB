@@ -50,10 +50,17 @@ body {
 .slide {
     padding-top: 90px;
     padding-bottom: 110px;
+    min-height: 571.6px;
+    box-sizing: border-box;
 }
 
 .slide-1 {
     background: #B4D1E0 url(../img/img-slide-1.png) no-repeat top right 18%;
+    background-size: contain;
+}
+
+.slide-2 {
+    background: #2889f7 url(../img/img-slide-1.png) no-repeat top right 18%;
     background-size: contain;
 }
 
@@ -77,6 +84,7 @@ body {
     font-size: 18px;
     margin-bottom: 40px;
     line-height: 30px;
+    min-width: 250px;
 }
 
 .slide-price {
@@ -92,6 +100,7 @@ body {
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
+    z-index: 9;
 }
 
 .slide-prev,
@@ -133,7 +142,7 @@ body {
 }
 
 .card-description-3 {
-    min-width: 320px;
+    max-width: none;
 }
 
 .view-all {
@@ -276,4 +285,74 @@ body {
     font-weight: 900;
     font-size: 14px;
     line-height: 20px;
+}
+
+.footer-top {
+    height: 43.2px;
+}
+
+@media (max-width: 992px) {
+
+    .slide-1,
+    .slide-2 {
+        background-size: cover;
+    }
+
+    .card-4 {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-3 {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 340px) {
+    .long-card {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 408px) {
+    .pi-2 {
+        margin: 5px 0 5px;
+    }
+}
+
+@media (max-width: 384px) {
+    .top-link {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-4 {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-4 {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 360px) {
+    .slide-title {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .slide-description {
+        color: black;
+    }
+}
+
+@media (max-width: 360px) {
+    .lable-new {
+        padding: 5px 5px;
+    }
 }
